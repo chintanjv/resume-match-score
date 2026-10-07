@@ -30,14 +30,29 @@ export function mountApp(): void {
     button.setAttribute('aria-busy', String(state.busy));
   };
 
-  const run = async (opts: { animate: boolean }) => {
-    if (!ready() || state.busy) return;
+  // A block toggle that lands mid-analysis re-runs once the current one finishes;
+  // callers get the in-flight promise, which settles after that re-run.
+  let rerun = false;
+  let inflight: Promise<void> = Promise.resolve();
+  const run = (opts: { animate: boolean }): Promise<void> => {
+    if (!ready()) return Promise.resolve();
+    if (state.busy) {
+      rerun = true;
+      return inflight;
+    }
+    inflight = analyze(opts);
+    return inflight;
+  };
+  const analyze = async (opts: { animate: boolean }) => {
     state.busy = true;
     sync();
     const disclosureOpen =
       results.querySelector('.analyzed')?.classList.contains('is-open') ?? false;
     try {
-      state.report = await analyzeInWorker(state.jobText, state.resume!.text, state.overrides);
+      const report = await analyzeInWorker(state.jobText, state.resume!.text, state.overrides);
+      // Start over was pressed while this ran: drop the stale result.
+      if (!ready()) return;
+      state.report = report;
       results.hidden = false;
       resultActions.hidden = false;
       renderResults(results, state.report, handlers, { animate: opts.animate, disclosureOpen });
@@ -52,6 +67,10 @@ export function mountApp(): void {
       state.busy = false;
       sync();
     }
+    if (rerun) {
+      rerun = false;
+      if (ready()) await analyze({ animate: false });
+    }
   };
 
   const handlers = {
@@ -61,13 +80,15 @@ export function mountApp(): void {
     },
   };
 
+  let copyTimer = 0;
   const actions = {
     onCopy: async (btn: HTMLButtonElement) => {
       if (!state.report) return;
       const ok = await copyText(reportText(state.report));
       btn.textContent = ok ? 'Copied' : 'Copy failed';
       live.textContent = ok ? 'Report copied to clipboard.' : 'Could not copy the report.';
-      window.setTimeout(() => (btn.textContent = 'Copy report'), 1800);
+      window.clearTimeout(copyTimer);
+      copyTimer = window.setTimeout(() => (btn.textContent = 'Copy report'), 1800);
     },
     onReset: () => {
       state.jobText = '';
