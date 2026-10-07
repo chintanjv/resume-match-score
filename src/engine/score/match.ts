@@ -27,7 +27,7 @@ export interface Ctx {
   relevantYears: number;
 }
 
-export interface KeywordState {
+interface KeywordState {
   status: 'demonstrated' | 'listed' | 'missing';
   recency: number;
   /** Satisfied through an alternative the posting allows ("Tableau, Looker or Power BI"). */

@@ -110,13 +110,5 @@ export function mountApp(): void {
   button.addEventListener('click', () => void run({ animate: true }));
   copyBtn.addEventListener('click', () => void actions.onCopy(copyBtn));
   $('#reset').addEventListener('click', actions.onReset);
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) {
-      e.preventDefault();
-      void run({ animate: true });
-    }
-  });
-  const isMac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
-  $('#kbd').textContent = `or press ${isMac ? '⌘' : 'Ctrl'} + Enter`;
   sync();
 }

@@ -35,7 +35,7 @@ export interface Block {
 }
 
 export type Tier = 'required' | 'preferred';
-export type ReqKind = 'years' | 'skill' | 'domain' | 'degree' | 'cert' | 'clause';
+type ReqKind = 'years' | 'skill' | 'domain' | 'degree' | 'cert' | 'clause';
 export type Strength = 'meets' | 'partial' | 'missing';
 
 export interface YearsSpec {

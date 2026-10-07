@@ -24,7 +24,7 @@ interface CertRow {
   license?: boolean;
 }
 
-export interface Skill {
+interface Skill {
   id: string;
   name: string;
   category: string;

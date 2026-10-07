@@ -190,10 +190,6 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.kbd {
-  color: var(--ink-muted);
-  font-size: var(--t-1);
-}
 
 /* ---------- Buttons ---------- */
 .btn {
