@@ -15,8 +15,11 @@
   --accent-16: rgb(47 93 80 / 0.16);
   --accent-8: rgb(47 93 80 / 0.08);
 
-  --glass-bg: rgb(255 255 255 / 0.55);
-  --glass-bg-hover: rgb(255 255 255 / 0.64);
+  /* Liquid glass: face opacity (tested worst case is this minus 0.06), blur and glare direction. */
+  --glass-a: 0.42;
+  --glass-blur: 14px;
+  --glare-angle: 135deg;
+  --glass-bg: rgb(255 255 255 / 0.42);
   --glass-edge: rgb(255 255 255 / 0.8);
   --glass-solid: color-mix(
     in srgb,
@@ -42,8 +45,8 @@
   --s-7: 48px;
   --s-8: 64px;
 
-  --r-card: 28px;
-  --r-inner: 20px;
+  /* One corner radius for every card, field and button (pills are only for tags and badges). */
+  --r: 25px;
   --r-pill: 999px;
 
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);

@@ -28,9 +28,13 @@ const paper = hex('paper');
 const ink = hex('ink');
 const accent = hex('accent');
 const white: RGB = [255, 255, 255];
-// Darkest point behind glass: the accent blob at 20% over paper (plus the ink blob at 7%).
-const backdrop = over(ink, 0.07, over(accent, 0.2, paper));
-const glass = over(white, alpha('glass-bg'), backdrop);
+// Darkest point behind glass: the accent blob at 31.5% over paper, plus the dot grid (ink at 9%),
+// which the glass blur spreads across each 22px cell (dot radius ≈ 1.25px).
+const dotCover = (Math.PI * 1.25 ** 2) / 22 ** 2;
+const backdrop = over(ink, 0.09 * dotCover, over(accent, 0.315, paper));
+// The glass face is a gradient whose thinnest stop is --glass-a minus 0.06.
+const glassA = Number(/--glass-a:\s*([\d.]+)/.exec(css)![1]) - 0.06;
+const glass = over(white, glassA, backdrop);
 
 describe('WCAG AA contrast on glass', () => {
   it('body text', () => expect(ratio(ink, glass)).toBeGreaterThanOrEqual(4.5));
