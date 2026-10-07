@@ -137,7 +137,7 @@ export function analyzeParsed(job: ParsedJob, resume: ParsedResume): Report {
         disposition: b.disposition,
         included: b.included,
         heading: b.heading,
-        preview: (b.lines.map((l) => l.text).join(' ') || b.heading || '').slice(0, 140),
+        preview: (b.lines.map((l) => l.text).join(' ') || b.heading || '').slice(0, 400),
       })),
     },
   };
