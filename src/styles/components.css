@@ -3,10 +3,6 @@
   width: min(100% - 2 * var(--s-4), 1080px);
   margin-inline: auto;
 }
-.narrow {
-  width: min(100%, 760px);
-  margin-inline: auto;
-}
 
 .masthead {
   padding: var(--s-8) 0 var(--s-6);
