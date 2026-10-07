@@ -1,0 +1,30 @@
+Jordan Rivera
+Brooklyn, NY · jordan.rivera@example.com · (555) 201-3344 · linkedin.com/in/jordanrivera
+
+SUMMARY
+Product manager with 7 years building payments and fintech products for small businesses. Known for data-informed roadmaps, rigorous experimentation and close partnership with engineering, risk and compliance.
+
+EXPERIENCE
+Senior Product Manager, Merchant Payments | Stripe | New York, NY | Mar 2021 – Present
+- Own the roadmap for card acceptance across 50,000 SMB merchants; lifted authorization rates 2.1 points, adding $18M in annual processed volume
+- Launched Apple Pay and Google Pay in checkout with engineering and design, increasing payment conversion 9%
+- Ran 30+ A/B tests on checkout flows; built the experimentation review process adopted by four product teams
+- Partnered with risk and compliance to redesign fraud rules, cutting chargebacks 22% without hurting conversion
+- Wrote PRDs and presented quarterly roadmap tradeoffs to the executive team
+- Analyzed funnel drop-off in SQL and Looker to size opportunities and prioritize the backlog
+
+Product Manager, Lending | Kabbage | Atlanta, GA | Jun 2018 – Feb 2021
+- Led the small business loan application flow, improving completion rate from 41% to 58%
+- Conducted 60+ customer interviews with merchants to define the underwriting data-sharing experience
+- Defined KPIs and Amplitude dashboards for activation and repayment
+- Shipped a bank-account linking integration with Plaid used by 120,000 businesses
+
+Associate Product Manager | Intuit | Mountain View, CA | Jul 2016 – May 2018
+- Shipped invoicing improvements in QuickBooks used by 300,000 small businesses
+- Partnered with engineering on API integrations for payment processing partners
+
+EDUCATION
+B.S. Economics, University of Michigan, 2016
+
+SKILLS
+Product strategy, roadmapping, A/B testing, SQL, Looker, Amplitude, Figma, Jira, payments, KYC/AML, PCI DSS, APIs

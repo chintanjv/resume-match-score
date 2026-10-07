@@ -1,0 +1,36 @@
+Priya Natarajan
+Remote · priya.n@example.com · +1 555 410 2299 · github.com/priyan
+
+Experience
+
+Senior Software Engineer — Datadog
+Jan 2021 – Present
+• Designed and built a distributed ingestion service in Go handling 2B events/day with p99 latency under 40ms
+• Defined SLOs for core APIs and led the observability overhaul with Prometheus and OpenTelemetry, cutting MTTR by 45%
+• Led design reviews and wrote design docs for the migration from a monolith to microservices
+• Managed infrastructure as code with Terraform and Kubernetes on AWS; reduced compute cost 30%
+• Mentored 4 engineers; introduced contract testing that cut integration bugs by half
+
+Software Engineer — Shopify
+Aug 2017 – Dec 2020
+• Built backend services in Python and Go for the checkout platform serving 1M+ merchants
+• Optimized PostgreSQL queries and added Redis caching, reducing API latency 60%
+• Built event pipelines on Kafka to process order events in real time
+• Improved CI/CD pipelines with GitHub Actions and Docker, cutting build times from 25 to 8 minutes
+• Participated in on-call rotation and led blameless postmortems
+
+Software Engineer Intern — IBM
+Summer 2016
+• Built internal tooling in Java for test automation
+
+Education
+B.S. Computer Science, University of Texas at Austin, 2017
+
+Skills
+Languages: Go, Python, Java, SQL
+Infrastructure: Kubernetes, Docker, Terraform, AWS, GCP
+Data: PostgreSQL, Redis, Kafka
+Practices: distributed systems, microservices, gRPC, observability, CI/CD
+
+Open source
+• Contributor to OpenTelemetry Go SDK

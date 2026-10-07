@@ -1,0 +1,129 @@
+{
+  "_default": [
+    "communicate"
+  ],
+  "verbal communication": [
+    "communicate"
+  ],
+  "written communication": [
+    "communicate"
+  ],
+  "presentation skills": [
+    "communicate"
+  ],
+  "public speaking skills": [
+    "communicate"
+  ],
+  "executive presence": [
+    "communicate"
+  ],
+  "cross-functional communication": [
+    "communicate",
+    "partner"
+  ],
+  "persuasion": [
+    "communicate"
+  ],
+  "active listening": [
+    "customer",
+    "partner"
+  ],
+  "stakeholder influence": [
+    "communicate",
+    "partner"
+  ],
+  "team leadership": [
+    "lead"
+  ],
+  "mentorship skills": [
+    "lead"
+  ],
+  "coaching skills": [
+    "lead"
+  ],
+  "teamwork": [
+    "partner"
+  ],
+  "relationship building": [
+    "partner"
+  ],
+  "interpersonal skills": [
+    "partner"
+  ],
+  "facilitation skills": [
+    "partner",
+    "communicate"
+  ],
+  "conflict resolution": [
+    "partner"
+  ],
+  "emotional intelligence": [
+    "partner",
+    "lead"
+  ],
+  "problem solving": [
+    "analyze"
+  ],
+  "analytical thinking": [
+    "analyze"
+  ],
+  "sound judgment": [
+    "analyze",
+    "strategy"
+  ],
+  "strategic thinking": [
+    "strategy"
+  ],
+  "creative thinking": [
+    "design",
+    "build"
+  ],
+  "decision making": [
+    "analyze",
+    "strategy"
+  ],
+  "ownership mindset": [
+    "own",
+    "launch"
+  ],
+  "self-starter": [
+    "own",
+    "build"
+  ],
+  "prioritization skills": [
+    "strategy"
+  ],
+  "time management": [
+    "launch",
+    "strategy"
+  ],
+  "organizational skills": [
+    "strategy",
+    "launch"
+  ],
+  "customer obsession": [
+    "customer"
+  ],
+  "negotiation skills": [
+    "sell",
+    "communicate"
+  ],
+  "ambiguity tolerance": [
+    "launch",
+    "build"
+  ],
+  "adaptability skills": [
+    "launch",
+    "improve"
+  ],
+  "growth mindset": [
+    "improve"
+  ],
+  "attention to craft": [
+    "design",
+    "improve"
+  ],
+  "attention to detail": [
+    "improve"
+  ]
+}

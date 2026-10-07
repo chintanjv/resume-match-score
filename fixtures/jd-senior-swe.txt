@@ -1,0 +1,43 @@
+Senior Software Engineer, Backend Platform
+Northwind Cloud | Remote (US) | Full-time
+
+Who we are
+Northwind Cloud builds developer infrastructure trusted by thousands of engineering teams. Our mission is to make shipping reliable software boring. We're a remote-first company of 300 people, backed by top-tier investors.
+
+The role
+As a Senior Software Engineer on the Backend Platform team, you'll design and build the distributed systems that power our API, handling billions of requests per day. You'll work with a small, senior team and have real ownership over architecture decisions.
+
+Responsibilities
+• Design, build and operate scalable backend services in Go and Python
+• Own the reliability of core APIs: define SLOs, improve observability, and participate in on-call
+• Lead technical design reviews and write clear design docs
+• Improve performance and reduce latency across our request path
+• Build and maintain infrastructure with Kubernetes and Terraform on AWS
+• Mentor other engineers and raise the bar on code quality and testing
+
+Requirements
+• 6+ years of professional software engineering experience
+• Strong proficiency in Go, Python, or Java
+• Deep experience with distributed systems and microservices
+• Experience with relational databases such as PostgreSQL and caching with Redis
+• Hands-on experience with Kubernetes, Docker and CI/CD pipelines
+• Experience with AWS or GCP
+• BS in Computer Science or a related field, or equivalent experience
+
+Bonus points
+• Experience with Kafka or other message queues
+• Contributions to open source projects
+• Experience with gRPC and Protocol Buffers
+
+What we offer
+• Competitive salary and meaningful equity
+• Fully remote with a home office stipend
+• Health, dental and vision coverage for you and your family
+• Annual company offsite
+• Generous parental leave and flexible PTO
+
+Our commitment to diversity
+Northwind Cloud is proud to be an equal opportunity employer. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+
+Applicant privacy notice
+By submitting your application, you consent to Northwind processing your personal data in accordance with our privacy policy.

@@ -1,0 +1,27 @@
+{
+  "levels": {
+    "1": ["associate degree", "associate's degree", "associates degree", "aa", "as degree"],
+    "2": ["bachelor", "bachelors", "bachelor's", "bachelor's degree", "bachelors degree", "bs", "ba", "b.s", "b.a", "bsc", "b.sc", "beng", "b.eng", "btech", "b.tech", "bba", "undergraduate degree", "4-year degree", "four-year degree", "college degree", "university degree", "ab", "sb", "bfa", "b.f.a", "bcom", "b.com"],
+    "3": ["master", "masters", "master's", "master's degree", "ms", "ma", "m.s", "m.a", "msc", "m.sc", "meng", "m.eng", "mba", "m.b.a", "mfa", "mph", "mpp", "mps", "graduate degree", "advanced degree", "mtech", "m.tech", "mcs", "mfin", "msf"],
+    "4": ["phd", "ph.d", "doctorate", "doctoral", "doctor of philosophy", "dphil", "md", "jd", "j.d", "edd"]
+  },
+  "levelNames": ["", "Associate", "Bachelor's", "Master's", "PhD"],
+  "fields": {
+    "computer science": ["computer science", "cs", "computing", "computer engineering", "software engineering", "informatics"],
+    "engineering": ["engineering", "electrical engineering", "mechanical engineering", "industrial engineering", "eecs", "systems engineering", "chemical engineering", "civil engineering"],
+    "statistics": ["statistics", "statistical", "biostatistics"],
+    "mathematics": ["mathematics", "math", "applied math", "applied mathematics"],
+    "economics": ["economics", "econometrics"],
+    "physics": ["physics"],
+    "business": ["business", "business administration", "management", "commerce", "mba"],
+    "finance": ["finance", "financial engineering", "accounting"],
+    "data science": ["data science", "analytics", "data analytics", "machine learning"],
+    "design": ["design", "hci", "human computer interaction", "human-computer interaction", "interaction design", "graphic design", "industrial design", "visual communication", "fine arts", "architecture"],
+    "marketing": ["marketing", "communications", "journalism"],
+    "psychology": ["psychology", "cognitive science", "behavioral science"],
+    "information systems": ["information systems", "information technology", "mis"],
+    "quantitative": ["quantitative field", "quantitative discipline", "stem", "technical field", "quantitative"]
+  },
+  "quantitativeFields": ["computer science", "engineering", "statistics", "mathematics", "economics", "physics", "data science", "finance", "information systems"],
+  "equivalentCues": ["equivalent experience", "equivalent practical experience", "equivalent work experience", "or equivalent", "equivalent combination", "or relevant experience", "or comparable experience", "practical experience"]
+}

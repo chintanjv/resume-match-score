@@ -1,0 +1,32 @@
+Maya Chen
+San Francisco, CA | maya.chen.design@example.com | 555-318-7720 | mayachen.design
+
+Profile
+Product designer with 5 years designing consumer mobile apps, focused on onboarding, activation and habit-forming experiences.
+
+Work Experience
+
+Product Designer, Headspace — San Francisco, CA
+04/2021 - Present
+- Led end-to-end design of the new member onboarding flow on iOS and Android, increasing week-one activation 18%
+- Created user flows, wireframes, high-fidelity mockups and interactive prototypes in Figma
+- Ran usability testing with 40+ participants and synthesized findings into design decisions with research
+- Contributed 60+ components to the design system and drove WCAG accessibility fixes across core screens
+- Partnered with PMs and engineers to ship weekly, using A/B test results to choose between design directions
+- Presented work in design critiques and to executive stakeholders
+
+UX Designer, Noom — New York, NY
+06/2019 - 03/2021
+- Designed coaching and goal-setting experiences for a health app with 2M monthly users
+- Conducted user interviews and journey mapping to identify drop-off in the first 7 days
+- Prototyped motion and micro-interactions in ProtoPie, improving task success 25% in testing
+
+Design Intern, IDEO
+Summer 2018
+- Supported design research and prototyping for a healthcare client
+
+Education
+BFA, Interaction Design, California College of the Arts, 2019
+
+Skills
+Figma, ProtoPie, Framer, prototyping, user research, usability testing, interaction design, visual design, design systems, accessibility

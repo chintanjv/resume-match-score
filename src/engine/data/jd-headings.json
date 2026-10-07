@@ -1,0 +1,43 @@
+{
+  "headings": {
+    "role_summary": ["about the role", "the role", "role overview", "overview", "position summary", "job summary", "about this role", "the opportunity", "your role", "job description", "about the job", "about the position", "position overview", "role summary", "summary", "the team", "about the team", "the position", "description", "role description", "who we are looking for", "who we're looking for", "the job", "about the opportunity", "what this role is"],
+    "responsibilities": ["responsibilities", "what you'll do", "what you will do", "key responsibilities", "duties", "in this role you will", "in this role you'll", "your impact", "what you'll be doing", "what you will be doing", "the work", "day to day", "day-to-day", "you will", "your responsibilities", "role responsibilities", "job duties", "what you'll own", "impact you'll make", "in this role", "essential functions", "essential duties", "primary responsibilities", "job responsibilities", "what you'll work on", "your mission", "core responsibilities", "you'll"],
+    "required_qualifications": ["requirements", "qualifications", "minimum qualifications", "basic qualifications", "required qualifications", "what you'll need", "what you will need", "what we're looking for", "what we are looking for", "what you bring", "who you are", "you have", "must have", "must-haves", "must haves", "skills and experience", "required skills", "about you", "you might be a fit if", "you may be a good fit if", "your background", "required experience", "minimum requirements", "job requirements", "skills and qualifications", "knowledge skills and abilities", "experience and skills", "what it takes", "you should have", "you'll need", "we'd love to hear from you if", "you're a great fit if", "you are", "skills", "experience"],
+    "preferred_qualifications": ["preferred qualifications", "nice to have", "nice-to-have", "nice to haves", "nice-to-haves", "bonus points", "bonus points if", "bonus", "pluses", "preferred skills", "additional qualifications", "ideally you have", "ideally you'll have", "extra credit", "it's a plus if", "even better if", "desired qualifications", "preferred experience", "what would make you stand out", "what will make you stand out", "standout qualifications", "desired skills", "preferred", "plus", "it would be great if", "it'd be great if", "bonus if you have", "additional skills"],
+    "location": ["location", "locations", "where you'll work", "office location", "job location", "based in"],
+    "work_arrangement": ["work arrangement", "workplace type", "work location", "flexible work", "remote work", "hybrid work", "where you'll work from", "work model", "workplace"],
+    "salary": ["salary", "compensation", "pay range", "salary range", "base pay", "pay transparency", "compensation range", "the pay", "base salary", "pay", "salary and benefits", "us salary range", "annual base salary"],
+    "employment_type": ["employment type", "job type", "type", "schedule", "position type"],
+    "about_company": ["about us", "about the company", "who we are", "our company", "company overview", "the company", "our story", "why join us", "why us", "life at", "company description", "about", "who we are and what we do", "what we do"],
+    "mission_values": ["our mission", "mission", "our values", "values", "culture", "our culture", "what we believe", "how we work", "our principles", "core values"],
+    "benefits": ["benefits", "perks", "what we offer", "we offer", "perks and benefits", "benefits and perks", "why you'll love working here", "total rewards", "what's in it for you", "our benefits", "compensation and benefits", "employee benefits", "rewards"],
+    "eeo_legal": ["equal opportunity", "eeo", "equal employment opportunity", "diversity", "diversity equity and inclusion", "diversity and inclusion", "dei", "commitment to diversity", "e-verify", "legal", "eeo statement", "equal opportunity employer", "inclusion"],
+    "accommodations": ["accommodations", "reasonable accommodation", "reasonable accommodations", "accessibility", "disability accommodations"],
+    "how_to_apply": ["how to apply", "to apply", "application process", "interview process", "next steps", "hiring process", "what to expect", "our hiring process", "apply"],
+    "privacy_notice": ["privacy", "privacy notice", "applicant privacy", "candidate privacy", "data privacy", "ccpa", "gdpr", "privacy policy", "applicant privacy notice"]
+  },
+  "body": {
+    "about_company": ["we are a", "we're a", "founded in", "our customers", "headquartered", "backed by", "investors", "leading provider", "our platform", "trusted by", "fortune 500", "we help", "our products", "our team", "the company", "employees", "offices in", "series a", "series b", "series c", "venture", "startup", "we build", "we're building", "we are building", "millions of", "world's", "industry leader", "funded"],
+    "mission_values": ["our mission", "we believe", "our values", "our culture", "mission is", "we value"],
+    "benefits": ["401(k)", "401k", "health insurance", "dental", "vision", "pto", "paid time off", "parental leave", "stock options", "wellness", "stipend", "benefits", "insurance", "medical", "holidays", "vacation", "gym", "commuter", "learning budget", "retirement", "annual bonus", "equity", "unlimited pto", "fertility", "life insurance", "home office", "perks", "lunch", "matching"],
+    "eeo_legal": ["equal opportunity employer", "without regard to", "religion", "gender identity", "sexual orientation", "national origin", "veteran status", "protected", "e-verify", "affirmative action", "race", "color", "genetic information", "marital status", "equal opportunity", "diverse", "inclusive", "discriminat"],
+    "accommodations": ["accommodation", "accommodations", "disability", "accessible", "assistance", "adjustments"],
+    "how_to_apply": ["apply", "application", "cover letter", "submit", "interview", "recruiter", "referral", "applications", "hiring process", "candidates"],
+    "privacy_notice": ["privacy", "personal data", "personal information", "gdpr", "ccpa", "data protection", "applicant data", "process your", "privacy policy"],
+    "salary": ["salary", "compensation", "base pay", "per year", "per hour", "annually", "pay range", "usd", "ote", "base salary"],
+    "location": ["located", "based in", "office", "relocation", "headquarters"],
+    "work_arrangement": ["remote", "hybrid", "on-site", "onsite", "in-office", "in office", "days a week", "work from home", "wfh", "remote-first", "distributed", "in person"],
+    "employment_type": ["full-time", "full time", "part-time", "part time", "contract", "temporary", "internship", "permanent", "w2", "freelance"],
+    "required_qualifications": ["years", "experience", "proficiency", "proficient", "degree", "bachelor", "knowledge of", "familiarity", "ability to", "strong", "track record", "demonstrated", "expertise", "understanding of", "skills", "fluency", "fluent", "background in", "comfortable", "excellent", "proven", "hands-on", "deep"],
+    "preferred_qualifications": ["preferred", "a plus", "nice to have", "bonus", "ideally", "desired", "is a plus", "plus", "advantageous", "not required"],
+    "role_summary": ["you will", "this role", "the role", "we are looking for", "we're looking for", "join", "as a", "as our", "reporting to", "you'll", "seeking", "we're hiring", "we are hiring", "this position"],
+    "boilerplate": ["share this job", "apply now", "save job", "similar jobs", "report job", "days ago", "sign in", "cookie", "see more", "show more", "back to jobs", "view all jobs", "powered by", "all rights reserved", "copyright", "follow us", "share on", "posted", "linkedin", "glassdoor", "apply for this job", "easy apply", "jobs you may like", "people also viewed", "applicants", "promoted"]
+  },
+  "preferredCues": ["preferred", "a plus", "is a plus", "are a plus", "would be a plus", "nice to have", "nice-to-have", "bonus", "ideally", "desired", "desirable", "advantageous", "not required", "plus if", "big plus", "huge plus", "is preferred", "are preferred"],
+  "metaKeys": {
+    "location": ["location", "locations", "office", "based in", "job location", "work location"],
+    "salary": ["salary", "compensation", "pay", "pay range", "salary range", "base salary", "base pay"],
+    "employment_type": ["employment type", "job type", "type", "schedule"],
+    "work_arrangement": ["remote", "workplace type", "work arrangement", "work type", "workplace", "location type"]
+  }
+}

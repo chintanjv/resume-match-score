@@ -1,0 +1,62 @@
+/* Three colors only. Everything else is a tint or opacity of these (plus the glass recipe's white). */
+:root {
+  color-scheme: light;
+
+  --paper: #f6f4ef;
+  --ink: #1a1a1a;
+  --accent: #2f5d50;
+
+  --ink-strong: rgb(26 26 26 / 0.86);
+  /* Muted text stays ≥ 4.5:1 on every glass surface (tests/contrast.test.ts). */
+  --ink-muted: rgb(26 26 26 / 0.7);
+  --ink-line: rgb(26 26 26 / 0.12);
+  --ink-hair: rgb(26 26 26 / 0.06);
+  --accent-40: rgb(47 93 80 / 0.4);
+  --accent-16: rgb(47 93 80 / 0.16);
+  --accent-8: rgb(47 93 80 / 0.08);
+
+  --glass-bg: rgb(255 255 255 / 0.55);
+  --glass-bg-hover: rgb(255 255 255 / 0.64);
+  --glass-edge: rgb(255 255 255 / 0.8);
+  --glass-solid: color-mix(
+    in srgb,
+    var(--paper) 45%,
+    white
+  ); /* opaque fallback without backdrop-filter */
+
+  /* Type scale (6 steps) */
+  --t-1: 15px;
+  --t-2: 16px;
+  --t-3: 19px;
+  --t-4: 26px;
+  --t-5: 40px;
+  --t-6: 64px;
+
+  /* 4/8 spacing */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+
+  --r-card: 28px;
+  --r-inner: 20px;
+  --r-pill: 999px;
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --d-1: 120ms;
+  --d-2: 180ms;
+  --d-3: 240ms;
+  /* Height reveals read better slightly slower than micro-interactions. */
+  --d-curtain: 320ms;
+
+  --shadow:
+    0 1px 1px rgb(26 26 26 / 0.03), 0 6px 16px rgb(26 26 26 / 0.04),
+    0 22px 56px rgb(26 26 26 / 0.06);
+  --shadow-lift:
+    0 1px 1px rgb(26 26 26 / 0.03), 0 10px 22px rgb(26 26 26 / 0.06),
+    0 28px 64px rgb(26 26 26 / 0.08);
+}

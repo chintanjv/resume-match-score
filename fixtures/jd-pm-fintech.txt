@@ -1,0 +1,47 @@
+Senior Product Manager, Payments
+Ledgerly · New York, NY · Hybrid · Full-time
+
+About Ledgerly
+Ledgerly is building the financial operating system for small businesses. Founded in 2018 and backed by leading investors, we help more than 200,000 merchants get paid faster, manage cash flow, and grow. Our team of 600 people works across New York, Toronto and London.
+
+About the role
+We're looking for a Senior Product Manager to lead our Payments Acceptance team. You will own the roadmap for how merchants accept card and ACH payments, partner closely with engineering, design, risk and compliance, and drive measurable improvements in authorization rates and payment conversion.
+
+What you'll do
+- Own the product strategy and roadmap for card and ACH payment acceptance
+- Define success metrics and run A/B tests to improve checkout conversion and authorization rates
+- Partner with engineering and design to launch new payment methods such as Apple Pay and Google Pay
+- Work with risk and compliance teams to reduce fraud and chargebacks without hurting conversion
+- Write clear product requirements documents and communicate tradeoffs to executive stakeholders
+- Conduct customer interviews with merchants to uncover pain points and prioritize opportunities
+- Analyze funnel data with SQL to identify drop-off and size opportunities
+
+What you'll need
+- 5+ years of product management experience in fintech or payments
+- Experience shipping B2B products used by small businesses or merchants
+- Strong analytical skills; comfortable writing SQL and working with product analytics tools like Amplitude or Looker
+- Track record of running experiments and making data-informed decisions
+- Excellent written and verbal communication skills
+- Bachelor's degree or equivalent practical experience
+
+Nice to have
+- Experience with card networks, interchange, or payment processing infrastructure
+- Familiarity with PCI DSS, KYC or AML requirements
+- Experience with APIs and developer-facing products is a plus
+
+Compensation
+The base salary range for this role is $175,000 - $210,000 per year, plus equity and benefits.
+
+Benefits
+- Comprehensive medical, dental and vision insurance
+- 401(k) with company match
+- 16 weeks paid parental leave
+- Unlimited PTO and 12 company holidays
+- $1,500 annual learning stipend
+- Home office setup budget
+
+Ledgerly is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.
+
+If you need a reasonable accommodation during the application process, please contact accommodations@ledgerly.example.
+
+Share this job · Apply now · Similar jobs

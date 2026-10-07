@@ -1,0 +1,39 @@
+Data Analyst, Marketplace Analytics
+Cartwheel
+Chicago, IL · On-site · Full-time
+
+About us
+Cartwheel is the largest online marketplace for used bikes and outdoor gear in North America. Since 2015 we've connected millions of buyers and sellers. We're a profitable, fast-growing company headquartered in Chicago.
+
+Position summary
+Cartwheel is seeking a Data Analyst to join our Marketplace Analytics team. You will turn data into insights that help us balance supply and demand, improve conversion, and grow seller retention.
+
+Key responsibilities
+1. Build and maintain dashboards in Tableau that track marketplace health metrics
+2. Write complex SQL queries to analyze buyer and seller behavior
+3. Partner with product and marketing teams to define KPIs and measure the impact of launches
+4. Analyze A/B test results and communicate recommendations to stakeholders
+5. Conduct deep-dive analyses on conversion funnels, cohorts and retention
+6. Automate recurring reporting using Python
+
+Basic qualifications
+1. 2+ years of experience in data analysis or business intelligence
+2. Advanced SQL skills
+3. Experience with a BI tool such as Tableau, Looker or Power BI
+4. Proficiency in Python or R for data analysis (pandas, NumPy)
+5. Solid understanding of statistics, including hypothesis testing and regression
+6. Bachelor's degree in Statistics, Economics, Mathematics, Computer Science or a related quantitative field
+
+Preferred qualifications
+1. Experience in e-commerce or two-sided marketplace companies
+2. Familiarity with dbt and modern data warehouses like Snowflake or BigQuery
+3. Experience with experimentation platforms
+
+Pay range: $85,000 - $105,000
+
+Why join Cartwheel?
+Competitive salary, annual bonus, 401(k) match, health, dental and vision insurance, gear discounts, and a dog-friendly office.
+
+Cartwheel is an Equal Opportunity Employer. Applicants must be authorized to work in the United States; we are unable to sponsor visas for this position.
+
+Cartwheel participates in E-Verify.

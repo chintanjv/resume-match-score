@@ -1,0 +1,29 @@
+/* Entrances: transform + opacity only. */
+.reveal {
+  animation: rise var(--d-3) var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+.fade-in {
+  animation: fade var(--d-3) var(--ease) both;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

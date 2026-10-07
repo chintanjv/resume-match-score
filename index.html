@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; worker-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>%PAGE_TITLE%</title>
+    <meta name="description" content="%DESCRIPTION%" />
+    <meta name="application-name" content="%APP_NAME%" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="%APP_NAME%" />
+    <meta property="og:title" content="%PAGE_TITLE%" />
+    <meta property="og:description" content="%DESCRIPTION%" />
+    <meta property="og:image" content="%OG_IMAGE%" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="%APP_NAME%: a score ring showing 89 out of 100. %TAGLINE%"
+    />
+    <!--%SITE_TAGS%-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="%OG_IMAGE%" />
+    <meta name="twitter:title" content="%PAGE_TITLE%" />
+    <meta name="twitter:description" content="%DESCRIPTION%" />
+    <script type="application/ld+json">
+      %JSON_LD%
+    </script>
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f6f4ef" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/Outfit.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+    <div class="page">
+      <header class="masthead">
+        <h1 class="wordmark">%APP_NAME%</h1>
+        <p class="tagline">%TAGLINE%</p>
+      </header>
+
+      <main id="main">
+        <section class="input glass narrow" aria-label="Your inputs">
+          <div class="step">
+            <label class="step-label" for="job"
+              ><span class="n">1</span> Paste the job posting</label
+            >
+            <textarea
+              id="job"
+              class="field"
+              rows="6"
+              spellcheck="false"
+              placeholder="Paste the whole page — company blurb, benefits and all. We’ll keep only what matters."
+              aria-describedby="job-hint"
+            ></textarea>
+            <p id="job-hint" class="hint" aria-live="polite"></p>
+          </div>
+
+          <div class="step">
+            <span class="step-label" id="resume-label"
+              ><span class="n">2</span> Add your resume</span
+            >
+            <div
+              id="dropzone"
+              class="dropzone"
+              role="button"
+              tabindex="0"
+              aria-describedby="resume-formats"
+            >
+              <span class="big">Drop your resume here</span>
+              <span class="small" id="resume-formats"
+                >or click to choose · PDF, DOCX or TXT · up to 5 MB</span
+              >
+            </div>
+            <input
+              id="file"
+              type="file"
+              accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain"
+              hidden
+            />
+            <div id="resume-status" class="step"></div>
+          </div>
+
+          <div class="actions">
+            <button id="analyze" class="btn btn-primary" type="button" disabled>Analyze</button>
+            <span id="kbd" class="kbd"></span>
+            <div id="result-actions" class="result-actions" hidden>
+              <button id="copy" class="btn btn-quiet" type="button">Copy report</button>
+              <button id="reset" class="btn btn-quiet" type="button">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1" />
+                  <path d="M3 4v4.5h4.5" />
+                </svg>
+                Start over
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <div id="results" class="results" hidden></div>
+        <div id="live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+      </main>
+
+      <footer class="foot">
+        <p>Free forever. No signup. No personal information stored.</p>
+        <p class="credit">Made with <span role="img" aria-label="love">❤️</span> by %AUTHOR%</p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "summary": ["summary", "professional summary", "profile", "about", "about me", "objective", "career objective", "overview", "professional profile", "career summary", "executive summary", "highlights", "summary of qualifications"],
+  "experience": ["experience", "work experience", "professional experience", "employment", "employment history", "work history", "career history", "relevant experience", "professional background", "experience highlights", "positions held", "career", "leadership experience"],
+  "education": ["education", "academic background", "education and training", "academics", "degrees", "education & training", "academic history"],
+  "skills": ["skills", "technical skills", "core skills", "key skills", "skills & tools", "skills and tools", "tools", "technologies", "core competencies", "competencies", "expertise", "areas of expertise", "tech stack", "toolkit", "skills & expertise", "skills and expertise", "languages & tools", "tools & technologies", "technical proficiencies", "skills & interests", "skills and interests", "additional skills"],
+  "projects": ["projects", "selected projects", "personal projects", "side projects", "key projects", "portfolio", "selected work", "open source", "case studies"],
+  "certifications": ["certifications", "certificates", "licenses", "licenses & certifications", "licenses and certifications", "certifications & licenses", "credentials", "professional development", "training", "courses"],
+  "other": ["awards", "honors", "honors & awards", "publications", "volunteer", "volunteering", "volunteer experience", "interests", "activities", "leadership", "languages", "references", "patents", "speaking", "talks", "affiliations", "memberships", "additional information", "additional"]
+}

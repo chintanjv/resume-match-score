@@ -1,0 +1,25 @@
+Sam Okafor
+Chicago, IL · sam.okafor@example.com · 555-822-1900
+
+SUMMARY
+Data analyst with 3 years of experience turning marketplace and e-commerce data into decisions.
+
+EXPERIENCE
+Data Analyst | Etsy | Chicago, IL | 2021 – Present
+- Built and maintain 12 Tableau dashboards tracking marketplace health for buyers and sellers, used weekly by leadership
+- Wrote complex SQL in BigQuery to analyze seller retention, uncovering an onboarding gap that drove a 7% retention lift
+- Analyzed A/B test results for search and checkout changes and presented recommendations to product managers
+- Ran cohort and funnel analyses on conversion; sized a $3M opportunity in abandoned carts
+- Automated recurring KPI reporting in Python (pandas), saving the team 10 hours per week
+- Partnered with marketing to define KPIs for campaign launches and measure impact
+
+Business Intelligence Intern | Groupon | Chicago, IL | Summer 2020
+- Built Looker reports on merchant performance
+- Cleaned and validated sales data with SQL
+
+EDUCATION
+B.S. Statistics, University of Illinois Urbana-Champaign, 2021
+Coursework: regression, hypothesis testing, experimental design
+
+SKILLS
+SQL, Python (pandas, NumPy), Tableau, Looker, BigQuery, dbt, statistics, A/B testing, Excel
