@@ -403,6 +403,8 @@
 .dim-top {
   display: flex;
   align-items: baseline;
+  /* Score and N/A cards share one header height. */
+  min-height: var(--t-4);
   justify-content: space-between;
   gap: var(--s-3);
 }
@@ -424,6 +426,13 @@
   color: var(--ink-muted);
   font-size: var(--t-1);
   line-height: 1.4;
+  /* Every closed card reserves exactly two lines, so all cards match. */
+  height: 2.8em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 .dim-more {
   font-size: var(--t-1);
@@ -434,6 +443,9 @@
   border-radius: var(--r-pill);
   background: var(--ink-line);
   overflow: hidden;
+}
+.bar.na {
+  visibility: hidden;
 }
 .bar > i {
   display: block;

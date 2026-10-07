@@ -76,7 +76,7 @@ export function dimensionCard(
             h('span', { class: 'visually-hidden' }, `${d.score} out of 100`),
           ),
     ),
-    na ? null : h('span', { class: 'bar', 'aria-hidden': 'true' }, bar),
+    h('span', { class: na ? 'bar na' : 'bar', 'aria-hidden': 'true' }, bar),
     h('span', { class: 'dim-why' }, d.why),
   );
   const more = h('span', { class: 'dim-more' }, 'Show evidence');
